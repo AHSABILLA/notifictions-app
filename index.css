@@ -1,0 +1,63 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #ffffff;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: black;
+}
+.cards-container {
+  width: 500px;
+}
+.blue-container {
+  background-color: #0b69ff;
+  margin: 30px;
+  padding: 20px;
+}
+.blue-box {
+  color: #ffffff;
+}
+.green-container {
+  background-color: #2dca73;
+  margin: 30px;
+  padding: 20px;
+}
+.green-box {
+  color: #ffffff;
+}
+.yellow-container {
+  background-color: #ffb800;
+  margin: 30px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.yellow-box {
+  color: #ffffff;
+}
+.red-container {
+  background-color: #ff0b37;
+  margin: 30px;
+  padding: 20px;
+}
+.red-box {
+  color: #ffffff;
+}
+.para-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 576px) {
+  .cards-container {
+    width: 350px;
+  }
+}
